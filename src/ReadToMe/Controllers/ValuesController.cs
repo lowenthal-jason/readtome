@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using readtome.Model;
 
 namespace readtome.Controllers
 {
@@ -22,8 +23,9 @@ namespace readtome.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public void Post([FromBody]Book value)
         {
+            System.Console.WriteLine(value);
         }
 
         // PUT api/values/5

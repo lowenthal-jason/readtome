@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using readtome.Model;
-using Newtonsoft.Json;
 
 namespace readtome.Controllers
 {
